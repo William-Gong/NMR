@@ -1,2 +1,2 @@
 # NMR
-Better work about NMR in Bruker
+Better work with NMR in Bruker
