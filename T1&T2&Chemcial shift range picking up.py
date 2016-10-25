@@ -4,9 +4,9 @@ import re
 txt = open('/Users/williamgong/Desktop/T1.txt')
 txt_read = txt.read()
 
-number1 = re.compile(r'-(\d*\.\d*)|(\d*\.\d*)')
-number2 = re.compile(r'(\d*\.\d*)m|(\d*\.\d*)s')
-number3 = re.compile(r'\d*\.\d*e-\d*')
+number1 = re.compile(r'-(\d*\.\d*)|(\d*\.\d*)') #get CS range
+number2 = re.compile(r'(\d*\.\d*)m|(\d*\.\d*)s') #get t1 or t2
+number3 = re.compile(r'\d*\.\d*e-\d*') #get standard deviation
 
 mode1 = re.compile(r'-\d*\.\d* to .* ppm|\d*\.\d* to .* ppm')
 range_list = []
