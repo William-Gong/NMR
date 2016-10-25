@@ -1,7 +1,7 @@
 #Read T1, T2, SD, chemical shift range from bruker generated file
 import re
 
-txt = open('/Users/williamgong/Desktop/T1.txt')
+txt = open('/Users/williamgong/Desktop/T1.txt') #open bruker generated file
 txt_read = txt.read()
 
 number1 = re.compile(r'-(\d*\.\d*)|(\d*\.\d*)') #get CS range
