@@ -29,7 +29,7 @@ else: #read as area fitting
             print range_list[n], "to", range_list[n+1], "ppm"
             
             
-mode2 = re.compile(r'T1\xc2.*')
+mode2 = re.compile(r'T1.*')
 T1 = mode2.findall(txt_read)
 print "T1/T2 value:"
 for n in T1:
